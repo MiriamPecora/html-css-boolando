@@ -12,6 +12,10 @@ body {
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
 }
 
 header {
@@ -29,6 +33,11 @@ h3 {
     font-size: 17px;
     font-weight: bolder;
 }
+
+footer {
+    background-color: rgb(27, 27, 27);
+}
+
 
 /* LAYOUT */
 
@@ -49,7 +58,7 @@ h3 {
 
 .col-33 {
     width: calc(100% / 3 - 20px);
-    margin: 0px 10px 25px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .content {
@@ -64,17 +73,10 @@ h3 {
 
 /* HEADER */
 
-.header-flex {
+.header-footer-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#left-header ul {
-    display: flex;
-    gap: 10px;
-    color: white;
-    font-weight: bold;
 }
 
 #center-header img {
@@ -160,6 +162,24 @@ h3 {
 
 .red-heart:hover {
     color: red;
+}
+
+/* FOOTER */
+
+.white-txt {
+    color: white;
+}
+
+.right-footer img {
+    width: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
 }
 
 
