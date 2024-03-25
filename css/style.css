@@ -79,12 +79,16 @@ footer {
     align-items: center;
 }
 
+#left-header {
+    font-size: 15px;
+}
+
 #center-header img {
-    width: 150px;
+    width: 110px;
 }
 
 #right-header img {
-    width: 20px;
+    width: 17px;
 }
 
 /* MAIN */
