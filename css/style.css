@@ -21,12 +21,21 @@ header {
     z-index: 1;
 }
 
+h4 {
+    font-size: 12px;
+}
+ 
+h3 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
 /* LAYOUT */
 
 .container {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 10px;
 }
 
 .row {
@@ -40,17 +49,15 @@ header {
 
 .col-33 {
     width: calc(100% / 3 - 20px);
-    margin: 0px 10px 40px 10px;
+    margin: 0px 10px 25px 10px;
 }
 
 .content {
     width: 100%;
-    height: 400px;
-    background-color: blue;
 }
 
-.margin-top-120 {
-    margin-top: 120px;
+.margin-top-80 {
+    margin-top: 80px;
 }
 
 /* STILE */
@@ -80,5 +87,79 @@ header {
 
 /* MAIN */
 
+.content img {
+    width: 100%;
+}
+
+.labels {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.red-bg {
+    background-color: red;
+    position: relative;
+    bottom: 60px;
+}
+
+.green-bg {
+    background-color: green;
+    position: relative;
+    bottom: 60px;
+}
+
+.red-txt {
+    color: red;
+}
+
+.clothes-info span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.visible-image {
+    width: 100%;
+}
+
+.invisible-image {
+    display: none;
+}
+
+.images:hover .invisible-image{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.images:hover .visible-image {
+    display: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.clothes-info {
+    bottom: 25px;
+}
+
+.red-heart {
+    bottom: 600px;
+    left: 340px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 33px;
+}
+
+.red-heart:hover {
+    color: red;
+}
 
 
