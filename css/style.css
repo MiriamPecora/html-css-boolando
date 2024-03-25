@@ -1,0 +1,67 @@
+/* GLOBALI */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: rgb(248, 111, 32);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+}
+
+
+
+/* STILE */
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-header ul {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#center-header img {
+    width: 150px;
+}
+
+#right-header img {
+    width: 20px;
+}
+
+
+
